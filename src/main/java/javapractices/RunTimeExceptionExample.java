@@ -17,7 +17,7 @@ public class RunTimeExceptionExample {
 		
 		//System.out.println(runtimeException.getCharacter("Welcome",10));//StringIndexOutOFBoundException
 		
-		System.out.println("String from index ="+ runtimeException.getStringFromIndex(5));//ArrayIndexOutOfboundException
+		   System.out.println("String from index ="+ runtimeException.getStringFromIndex(5));//ArrayIndexOutOfboundException
 	}
 	
 	public char getCharacter(String s ,int index) {
